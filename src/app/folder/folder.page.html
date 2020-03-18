@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>User Name</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+ 
+<ion-content [fullscreen]="true">
+    <div id="container">
+      <strong class="capitalize">Default to </strong>
+      <p>My Forms Tab Content</p>
+    </div>
+  </ion-content>
+
+
+
+<ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="myForms">
+          <ion-label>My Forms</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="formBuilder">
+          <ion-label>Form Builder</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
